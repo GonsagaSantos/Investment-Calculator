@@ -1,9 +1,9 @@
 <app-header />
 
-<app-user-input (calculate)="onCalculateInvestmentResults($event)">
+<app-user-input>
   <!-- Usado para levar os dados emitidos pelo componente "app-user-input" 
     para o método "onCalculateInvestmentResults", onde $event contém as informações 
     relacionadas ao cálculo do investimento --></app-user-input
 >
 
-<app-investment-results [results]="resultsData()" />
+<app-investment-results />
